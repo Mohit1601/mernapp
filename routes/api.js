@@ -12,6 +12,7 @@ router.get("/", (req, res) => {
         error: err,
       });
     }
+    console.log(data);
     res.json(data);
   });
 });
