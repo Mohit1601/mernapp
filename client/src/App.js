@@ -86,7 +86,7 @@ class App extends React.Component {
     // console.log("state", this.state);
     return (
       <div className="App">
-        Welcome! Would you like to share something
+        <h1>Welcome to my first ever MERN App</h1>
         <form onSubmit={this.submit}>
           <div className="form-input">
             <input
